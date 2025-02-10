@@ -69,6 +69,52 @@ namespace ICPCAssiut01
 
 
             #endregion
+
+
+            #region C. Simple Calculator
+          /*  Console.WriteLine("Enter Your First Number");
+            double.TryParse(Console.ReadLine(), out double X);
+            Console.WriteLine("Enter Your Second Number");
+            double.TryParse(Console.ReadLine(), out double Y);
+
+            Console.WriteLine("Enter Your Symbol : /, *, +, -");
+            char.TryParse(Console.ReadLine(), out char Op);
+            double Result;
+
+            switch (Op)
+            {
+                case '+':
+                    Result = X + Y;
+                    Console.WriteLine("Result: " + Result);
+                    break;
+                case '-':
+                    Result = X - Y;
+                    Console.WriteLine("Result: " + Result);
+                    break;
+                case '*':
+                    Result = X * Y;
+                    Console.WriteLine("Result: " + Result);
+                    break;
+                case '/':
+                    if(Y != 0)
+                    {
+                        Result = X / Y;
+                        Console.WriteLine("Result: " + Result);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error: Division by zero is not allowed.");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Invalid operator! Please use +, -, *, or /.");
+                    break;
+
+            }*/
+
+            #endregion
+
+
         }
 
     }
