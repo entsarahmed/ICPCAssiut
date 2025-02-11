@@ -279,32 +279,91 @@ namespace ICPCAssiut01
 
             #region J. Multiples
 
-            
-          /*  int A;
-            int B;
 
+            /*  int A;
+              int B;
+
+              bool Flag;
+              do
+              {
+                  Console.WriteLine("Enter Your A");
+                  Flag = int.TryParse(Console.ReadLine(), out A);
+              } while (!Flag);
+
+              do
+              {
+                  Console.WriteLine("Enter Your B");
+                  Flag = int.TryParse(Console.ReadLine(),out B);
+              }while (!Flag);
+
+              if((A%B) == 0)
+                  Console.WriteLine("Multiples");
+              else if((B%A) == 0)
+                  Console.WriteLine("Multiples");
+              else
+                  Console.WriteLine("No Multiples");*/
+
+            #endregion
+
+            #region K. Max and Min
+
+        /*    int A;
+            int B;
+            int C;
             bool Flag;
+
             do
             {
                 Console.WriteLine("Enter Your A");
                 Flag = int.TryParse(Console.ReadLine(), out A);
             } while (!Flag);
-
             do
             {
                 Console.WriteLine("Enter Your B");
-                Flag = int.TryParse(Console.ReadLine(),out B);
+                Flag= int.TryParse(Console.ReadLine(),out B);
             }while (!Flag);
-
-            if((A%B) == 0)
-                Console.WriteLine("Multiples");
-            else if((B%A) == 0)
-                Console.WriteLine("Multiples");
+            do
+            {
+                Console.WriteLine("Enter Your C");
+                Flag = int.TryParse(Console.ReadLine(), out C);
+            }while(!Flag);
+            if(A > B && A> C)
+            {
+                Console.WriteLine(A);
+                if(B<C && B<A)
+                {
+                    Console.WriteLine(B);
+                }
+                else
+                {
+                    Console.WriteLine(C);
+                }
+            }else if(B>A && B>C)
+            {
+                Console.WriteLine(B);
+                if(C<B && C<A)
+                {
+                   Console.WriteLine(C);
+                }
+                else
+                {
+                    Console.WriteLine(A);
+                }
+            }
             else
-                Console.WriteLine("No Multiples");*/
+            {
+                Console.WriteLine(C);
+                if(A<B && A<C)
+                {
+                    Console.WriteLine(A);
+                }
+                else
+                {
+                    Console.WriteLine(B);
+                }
+            }*/
 
             #endregion
-
 
         }
 
