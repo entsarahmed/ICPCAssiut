@@ -227,31 +227,54 @@ namespace ICPCAssiut01
 
             #region H. Two numbers
 
-           /* Console.WriteLine("Enter your Number");
-            double Num01;
-            Console.WriteLine("Enter Your division Number");
-            double DivNum;
-            double FloorResult;
-            double CeilResult;
-            double RoundResult;
-            bool Flag;
-            do
-            {
-                Flag =double.TryParse(Console.ReadLine(), out Num01);
-            }while (!Flag);
-            do
-            {
-                Flag= double.TryParse(Console.ReadLine(),out DivNum);
-            }while (!Flag);
+            /* Console.WriteLine("Enter your Number");
+             double Num01;
+             Console.WriteLine("Enter Your division Number");
+             double DivNum;
+             double FloorResult;
+             double CeilResult;
+             double RoundResult;
+             bool Flag;
+             do
+             {
+                 Flag =double.TryParse(Console.ReadLine(), out Num01);
+             }while (!Flag);
+             do
+             {
+                 Flag= double.TryParse(Console.ReadLine(),out DivNum);
+             }while (!Flag);
 
-            FloorResult = (Num01 /  DivNum);
-            Console.WriteLine(Math.Floor(FloorResult));
-            CeilResult = (Num01 / DivNum);
-            Console.WriteLine(Math.Ceiling(CeilResult));
-            RoundResult = (Num01 / DivNum);
-            Console.WriteLine(Math.Round(RoundResult));*/
+             FloorResult = (Num01 /  DivNum);
+             Console.WriteLine(Math.Floor(FloorResult));
+             CeilResult = (Num01 / DivNum);
+             Console.WriteLine(Math.Ceiling(CeilResult));
+             RoundResult = (Num01 / DivNum);
+             Console.WriteLine(Math.Round(RoundResult));*/
             #endregion
 
+            #region I. Welcome for you with Conditions
+
+            
+            //int A;
+            //int B;
+            //bool Flag;
+            //do
+            //{
+            //    Console.WriteLine("Enter Your A");
+            //    Flag = int.TryParse(Console.ReadLine(), out A);
+            //} while (!Flag);
+            //do
+            //{
+            //    Console.WriteLine("Enter Your B");
+            //    Flag = int.TryParse(Console.ReadLine(), out B);
+            //}while (!Flag);
+
+            //if(A >= B)
+            //    Console.WriteLine("Yes");
+            //else
+            //    Console.WriteLine("No");
+
+            #endregion
 
 
 
