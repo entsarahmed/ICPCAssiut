@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography;
 using System.Transactions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -276,7 +277,6 @@ namespace ICPCAssiut01
 
             #endregion
 
-
             #region J. Multiples
 
 
@@ -307,63 +307,85 @@ namespace ICPCAssiut01
 
             #region K. Max and Min
 
-        /*    int A;
-            int B;
-            int C;
-            bool Flag;
+            /*    int A;
+                int B;
+                int C;
+                bool Flag;
 
-            do
-            {
-                Console.WriteLine("Enter Your A");
-                Flag = int.TryParse(Console.ReadLine(), out A);
-            } while (!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your B");
-                Flag= int.TryParse(Console.ReadLine(),out B);
-            }while (!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your C");
-                Flag = int.TryParse(Console.ReadLine(), out C);
-            }while(!Flag);
-            if(A > B && A> C)
-            {
-                Console.WriteLine(A);
-                if(B<C && B<A)
+                do
+                {
+                    Console.WriteLine("Enter Your A");
+                    Flag = int.TryParse(Console.ReadLine(), out A);
+                } while (!Flag);
+                do
+                {
+                    Console.WriteLine("Enter Your B");
+                    Flag= int.TryParse(Console.ReadLine(),out B);
+                }while (!Flag);
+                do
+                {
+                    Console.WriteLine("Enter Your C");
+                    Flag = int.TryParse(Console.ReadLine(), out C);
+                }while(!Flag);
+                if(A > B && A> C)
+                {
+                    Console.WriteLine(A);
+                    if(B<C && B<A)
+                    {
+                        Console.WriteLine(B);
+                    }
+                    else
+                    {
+                        Console.WriteLine(C);
+                    }
+                }else if(B>A && B>C)
                 {
                     Console.WriteLine(B);
+                    if(C<B && C<A)
+                    {
+                       Console.WriteLine(C);
+                    }
+                    else
+                    {
+                        Console.WriteLine(A);
+                    }
                 }
                 else
                 {
                     Console.WriteLine(C);
-                }
-            }else if(B>A && B>C)
-            {
-                Console.WriteLine(B);
-                if(C<B && C<A)
-                {
-                   Console.WriteLine(C);
-                }
-                else
-                {
-                    Console.WriteLine(A);
-                }
-            }
-            else
-            {
-                Console.WriteLine(C);
-                if(A<B && A<C)
-                {
-                    Console.WriteLine(A);
-                }
-                else
-                {
-                    Console.WriteLine(B);
-                }
-            }*/
+                    if(A<B && A<C)
+                    {
+                        Console.WriteLine(A);
+                    }
+                    else
+                    {
+                        Console.WriteLine(B);
+                    }
+                }*/
 
             #endregion
+
+            #region L. The Brothers
+           /* Console.WriteLine("Enter Your First Name01");
+            string F01 = Console.ReadLine()!;
+            Console.WriteLine("Enter Your Second Name01");
+            string  S01 = Console.ReadLine()!;
+            string Person01 = F01 + " " + S01;
+            Console.WriteLine(Person01);
+
+            Console.WriteLine("Enter Your First Name02");
+            string F02 = Console.ReadLine()!;
+            Console.WriteLine("Enter Your Second Name02");
+            string S02 = Console.ReadLine()!;
+            string Person02 = F02 + " " + S02;
+            Console.WriteLine(Person02);
+
+            if (S01.Equals(S02))
+                Console.WriteLine("ARE Brothers");
+            else
+                Console.WriteLine("NOT");*/
+            #endregion
+
 
         }
 
