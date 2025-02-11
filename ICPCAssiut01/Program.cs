@@ -406,22 +406,42 @@ namespace ICPCAssiut01
             #endregion
 
             #region N. Char
-          /*
-            Console.WriteLine("Enter Your Character");
-            char ch;
+            /*
+              Console.WriteLine("Enter Your Character");
+              char ch;
+              bool Flag;
+              do
+              {
+                  Flag= char.TryParse(Console.ReadLine(), out ch);
+              }while(!Flag);
+
+              if(ch >= 'a' && ch <= 'z')
+                  Console.WriteLine(char.ToUpper(ch));
+              else
+                  Console.WriteLine(char.ToLower(ch));*/
+            #endregion
+
+            #region P. First digit !
+         /*   Console.WriteLine("Enter Your Digit!");
+            int X;
+            int tens;
             bool Flag;
             do
             {
-                Flag= char.TryParse(Console.ReadLine(), out ch);
-            }while(!Flag);
+                Flag = int.TryParse(Console.ReadLine(), out X);
+                // tens = X /10;
+                tens = Math.Abs((X / 1000) % 10);
 
-            if(ch >= 'a' && ch <= 'z')
-                Console.WriteLine(char.ToUpper(ch));
+
+            } while (!Flag);
+
+            if (tens%2 == 0)
+                Console.WriteLine("EVEN");
             else
-                Console.WriteLine(char.ToLower(ch));*/
+                Console.WriteLine("ODD");
+            Console.WriteLine(tens);*/
+
             #endregion
-
-
 
 
         }
