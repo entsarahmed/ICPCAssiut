@@ -254,7 +254,7 @@ namespace ICPCAssiut01
 
             #region I. Welcome for you with Conditions
 
-            
+
             //int A;
             //int B;
             //bool Flag;
@@ -276,6 +276,34 @@ namespace ICPCAssiut01
 
             #endregion
 
+
+            #region J. Multiples
+
+            
+          /*  int A;
+            int B;
+
+            bool Flag;
+            do
+            {
+                Console.WriteLine("Enter Your A");
+                Flag = int.TryParse(Console.ReadLine(), out A);
+            } while (!Flag);
+
+            do
+            {
+                Console.WriteLine("Enter Your B");
+                Flag = int.TryParse(Console.ReadLine(),out B);
+            }while (!Flag);
+
+            if((A%B) == 0)
+                Console.WriteLine("Multiples");
+            else if((B%A) == 0)
+                Console.WriteLine("Multiples");
+            else
+                Console.WriteLine("No Multiples");*/
+
+            #endregion
 
 
         }
