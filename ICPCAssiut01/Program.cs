@@ -366,24 +366,43 @@ namespace ICPCAssiut01
             #endregion
 
             #region L. The Brothers
-           /* Console.WriteLine("Enter Your First Name01");
-            string F01 = Console.ReadLine()!;
-            Console.WriteLine("Enter Your Second Name01");
-            string  S01 = Console.ReadLine()!;
-            string Person01 = F01 + " " + S01;
-            Console.WriteLine(Person01);
+            /* Console.WriteLine("Enter Your First Name01");
+             string F01 = Console.ReadLine()!;
+             Console.WriteLine("Enter Your Second Name01");
+             string  S01 = Console.ReadLine()!;
+             string Person01 = F01 + " " + S01;
+             Console.WriteLine(Person01);
 
-            Console.WriteLine("Enter Your First Name02");
-            string F02 = Console.ReadLine()!;
-            Console.WriteLine("Enter Your Second Name02");
-            string S02 = Console.ReadLine()!;
-            string Person02 = F02 + " " + S02;
-            Console.WriteLine(Person02);
+             Console.WriteLine("Enter Your First Name02");
+             string F02 = Console.ReadLine()!;
+             Console.WriteLine("Enter Your Second Name02");
+             string S02 = Console.ReadLine()!;
+             string Person02 = F02 + " " + S02;
+             Console.WriteLine(Person02);
 
-            if (S01.Equals(S02))
-                Console.WriteLine("ARE Brothers");
+             if (S01.Equals(S02))
+                 Console.WriteLine("ARE Brothers");
+             else
+                 Console.WriteLine("NOT");*/
+            #endregion
+
+            #region M. Capital or Small or Digit
+
+           /* Console.WriteLine("Enter the Char");
+            char ch;
+            bool Flag;
+            do
+            {
+                Flag = char.TryParse(Console.ReadLine(), out ch);
+            } while (!Flag);
+            if (ch >= 'A' && ch <= 'Z')
+                Console.WriteLine("ALPHA\r\nIS CAPITAL");
+            else if (ch >= 'a' && ch <= 'z')
+                Console.WriteLine("ALPHA IS SMALL");
+            else if(char.IsDigit(ch))
+                Console.WriteLine("IS DIGIT");
             else
-                Console.WriteLine("NOT");*/
+                Console.WriteLine( " is not an alphabetic character");*/
             #endregion
 
 
