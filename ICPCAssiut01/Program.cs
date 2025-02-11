@@ -21,7 +21,6 @@ namespace ICPCAssiut01
 
             #endregion
 
-
             #region B/ Only one line containing the following space-separated values: int, long long, char, float and double respectively.
 
 
@@ -72,7 +71,6 @@ namespace ICPCAssiut01
 
 
             #endregion
-
 
             #region C. Simple Calculator
             /*  Console.WriteLine("Enter Your First Number");
@@ -175,7 +173,6 @@ namespace ICPCAssiut01
 
             #endregion
 
-
             #region F. Digits Summation
             /*   Console.WriteLine("Enter Your First Number");
                int Num1;
@@ -216,7 +213,7 @@ namespace ICPCAssiut01
             //int Num01;
             //bool Flag;
             //int sum = 0;
-         
+
             //do
             //{
             //    Flag = int.TryParse(Console.ReadLine(), out Num01);
@@ -227,6 +224,34 @@ namespace ICPCAssiut01
 
 
             #endregion
+
+            #region H. Two numbers
+
+           /* Console.WriteLine("Enter your Number");
+            double Num01;
+            Console.WriteLine("Enter Your division Number");
+            double DivNum;
+            double FloorResult;
+            double CeilResult;
+            double RoundResult;
+            bool Flag;
+            do
+            {
+                Flag =double.TryParse(Console.ReadLine(), out Num01);
+            }while (!Flag);
+            do
+            {
+                Flag= double.TryParse(Console.ReadLine(),out DivNum);
+            }while (!Flag);
+
+            FloorResult = (Num01 /  DivNum);
+            Console.WriteLine(Math.Floor(FloorResult));
+            CeilResult = (Num01 / DivNum);
+            Console.WriteLine(Math.Ceiling(CeilResult));
+            RoundResult = (Num01 / DivNum);
+            Console.WriteLine(Math.Round(RoundResult));*/
+            #endregion
+
 
 
 
