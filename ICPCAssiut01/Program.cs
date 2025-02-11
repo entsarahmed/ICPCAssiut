@@ -388,22 +388,40 @@ namespace ICPCAssiut01
 
             #region M. Capital or Small or Digit
 
-           /* Console.WriteLine("Enter the Char");
+            /* Console.WriteLine("Enter the Char");
+             char ch;
+             bool Flag;
+             do
+             {
+                 Flag = char.TryParse(Console.ReadLine(), out ch);
+             } while (!Flag);
+             if (ch >= 'A' && ch <= 'Z')
+                 Console.WriteLine("ALPHA\r\nIS CAPITAL");
+             else if (ch >= 'a' && ch <= 'z')
+                 Console.WriteLine("ALPHA IS SMALL");
+             else if(char.IsDigit(ch))
+                 Console.WriteLine("IS DIGIT");
+             else
+                 Console.WriteLine( " is not an alphabetic character");*/
+            #endregion
+
+            #region N. Char
+          /*
+            Console.WriteLine("Enter Your Character");
             char ch;
             bool Flag;
             do
             {
-                Flag = char.TryParse(Console.ReadLine(), out ch);
-            } while (!Flag);
-            if (ch >= 'A' && ch <= 'Z')
-                Console.WriteLine("ALPHA\r\nIS CAPITAL");
-            else if (ch >= 'a' && ch <= 'z')
-                Console.WriteLine("ALPHA IS SMALL");
-            else if(char.IsDigit(ch))
-                Console.WriteLine("IS DIGIT");
+                Flag= char.TryParse(Console.ReadLine(), out ch);
+            }while(!Flag);
+
+            if(ch >= 'a' && ch <= 'z')
+                Console.WriteLine(char.ToUpper(ch));
             else
-                Console.WriteLine( " is not an alphabetic character");*/
+                Console.WriteLine(char.ToLower(ch));*/
             #endregion
+
+
 
 
         }
