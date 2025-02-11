@@ -168,13 +168,46 @@ namespace ICPCAssiut01
             //Area=Math.Round(Area, 9);
             //Console.WriteLine(Area.ToString("0.000000000"));
 
-            
+
 
 
 
 
             #endregion
 
+
+            #region F. Digits Summation
+         /*   Console.WriteLine("Enter Your First Number");
+            int Num1;
+            int Num01;
+            Console.WriteLine("Enter Your Second Number");
+            int Num2;
+            int Num02;
+            bool Flag;
+
+            do
+            {
+                Flag = int.TryParse(Console.ReadLine(), out Num1);
+
+                Num01 =Num1 % 10;
+            } while (!Flag);
+            do
+            {
+                Flag = int.TryParse(Console.ReadLine(), out Num2);
+                Num02 =Num2 % 10;
+            } while (!Flag);
+            Console.WriteLine($"{Num01 + Num02} ");*/
+
+            #region Get last or first Number
+            //int num = 12;
+            //int ones = num % 10;
+            //int tens = num /10;
+            //Console.WriteLine(ones);
+            //Console.WriteLine(tens); 
+            #endregion
+
+
+            #endregion
         }
 
     }
