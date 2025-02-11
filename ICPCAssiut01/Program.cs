@@ -177,26 +177,26 @@ namespace ICPCAssiut01
 
 
             #region F. Digits Summation
-         /*   Console.WriteLine("Enter Your First Number");
-            int Num1;
-            int Num01;
-            Console.WriteLine("Enter Your Second Number");
-            int Num2;
-            int Num02;
-            bool Flag;
+            /*   Console.WriteLine("Enter Your First Number");
+               int Num1;
+               int Num01;
+               Console.WriteLine("Enter Your Second Number");
+               int Num2;
+               int Num02;
+               bool Flag;
 
-            do
-            {
-                Flag = int.TryParse(Console.ReadLine(), out Num1);
+               do
+               {
+                   Flag = int.TryParse(Console.ReadLine(), out Num1);
 
-                Num01 =Num1 % 10;
-            } while (!Flag);
-            do
-            {
-                Flag = int.TryParse(Console.ReadLine(), out Num2);
-                Num02 =Num2 % 10;
-            } while (!Flag);
-            Console.WriteLine($"{Num01 + Num02} ");*/
+                   Num01 =Num1 % 10;
+               } while (!Flag);
+               do
+               {
+                   Flag = int.TryParse(Console.ReadLine(), out Num2);
+                   Num02 =Num2 % 10;
+               } while (!Flag);
+               Console.WriteLine($"{Num01 + Num02} ");*/
 
             #region Get last or first Number
             //int num = 12;
@@ -208,6 +208,28 @@ namespace ICPCAssiut01
 
 
             #endregion
+
+            #region G. Summation from 1 to N
+
+            //Console.WriteLine("Enter Your Number");
+
+            //int Num01;
+            //bool Flag;
+            //int sum = 0;
+         
+            //do
+            //{
+            //    Flag = int.TryParse(Console.ReadLine(), out Num01);
+            //    for (int i = 1; i<=Num01; i++)
+            //        sum+=i;
+            //} while(!Flag);
+            //Console.WriteLine(sum);
+
+
+            #endregion
+
+
+
         }
 
     }
