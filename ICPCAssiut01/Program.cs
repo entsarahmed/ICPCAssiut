@@ -1,6 +1,8 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System;
+using System.Reflection.Metadata.Ecma335;
 using System.Transactions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace ICPCAssiut01
 {
@@ -147,6 +149,29 @@ namespace ICPCAssiut01
             //}while (!Flag);
 
             //Console.WriteLine("{4}=({0}*{1}) -({2}*{3})", A, B, C, D, X = (A * B) - (C * D));
+
+            #endregion
+
+            #region E. Area of a Circle
+            //Area = π * R2.
+            //Console.WriteLine("Enter Your R");
+            //double R;
+            //const double Pi = 3.141592653;
+            //double Area;
+            //bool Flag;
+            //do
+            //{
+            //    Flag = double.TryParse(Console.ReadLine(), out R );
+            //} while (!Flag);
+
+            //Area = (Pi *  R * R);
+            //Area=Math.Round(Area, 9);
+            //Console.WriteLine(Area.ToString("0.000000000"));
+
+            
+
+
+
 
             #endregion
 
