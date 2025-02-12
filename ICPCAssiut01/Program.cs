@@ -422,24 +422,52 @@ namespace ICPCAssiut01
             #endregion
 
             #region P. First digit !
-         /*   Console.WriteLine("Enter Your Digit!");
-            int X;
-            int tens;
+            /*   Console.WriteLine("Enter Your Digit!");
+               int X;
+               int tens;
+               bool Flag;
+               do
+               {
+                   Flag = int.TryParse(Console.ReadLine(), out X);
+                   // tens = X /10;
+                   tens = Math.Abs((X / 1000) % 10);
+
+
+               } while (!Flag);
+
+               if (tens%2 == 0)
+                   Console.WriteLine("EVEN");
+               else
+                   Console.WriteLine("ODD");
+               Console.WriteLine(tens);*/
+
+            #endregion
+
+            
+
+            #region R. Age in Days
+           /* Console.WriteLine("Enter Your Number Age for Days");
+            int N;
             bool Flag;
             do
             {
-                Flag = int.TryParse(Console.ReadLine(), out X);
-                // tens = X /10;
-                tens = Math.Abs((X / 1000) % 10);
+                Flag = int.TryParse(Console.ReadLine(),out N);
+            }while(!Flag);
+
+            int Years;
+            int Month;
+            int Days;
+
+            Years = N / 365;
+            Month = (N - Years *365) / 30;
+            Days = (N - Years * 365 - Month*30);
+
+            Console.WriteLine($"Years: {Years}");
+            Console.WriteLine($"Month: {Month}");
+            Console.WriteLine($"Days: {Days}");*/
 
 
-            } while (!Flag);
 
-            if (tens%2 == 0)
-                Console.WriteLine("EVEN");
-            else
-                Console.WriteLine("ODD");
-            Console.WriteLine(tens);*/
 
             #endregion
 
