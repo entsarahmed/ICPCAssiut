@@ -443,32 +443,109 @@ namespace ICPCAssiut01
 
             #endregion
 
-            
+            #region Q. Coordinates of a Point
+
+            /*  double X;
+              double Y;
+              bool Flag;
+
+              do
+              {
+                  Console.WriteLine("Enter Your X");
+                  Flag= double.TryParse(Console.ReadLine(), out X);
+              } while (!Flag);
+              do
+              {
+                  Console.WriteLine("Enter Your Y");
+                  Flag = double.TryParse(Console.ReadLine(),out Y);
+              }while (!Flag);*/
+
+            /*  if (X > 0 && Y > 0)
+                  Console.WriteLine("Q1");
+              else if (X < 0 && Y > 0)
+                  Console.WriteLine("Q2");
+              else if (X < 0 && Y < 0)
+                  Console.WriteLine("Q3");
+              else if (X > 0 && Y< 0)
+                  Console.WriteLine("Q4");
+              else if (X ==  0 && Y == 0)
+                  Console.WriteLine("Origem");
+              else if (X != 0 && Y == 0)
+                  Console.WriteLine("Eixo X");
+              else
+                  Console.WriteLine("Eixo Y");*/
+
+            /*  string result = (X, Y) switch
+              {
+                  ( > 0, > 0) => "Q1",
+                  ( < 0, > 0) => "Q2",
+                  ( < 0, < 0) => "Q3",
+                  ( > 0, < 0) => "Q4",
+                  (0, 0) => "Origem",
+                  (_, 0) => "Eixo X",
+                  (0, _) => "Eixo Y",
+                  _ => "Invalid" // This case should never happen, but it's a fallback.
+              };
+              Console.WriteLine(result);*/
+
+            #endregion
 
             #region R. Age in Days
-           /* Console.WriteLine("Enter Your Number Age for Days");
-            int N;
+            /* Console.WriteLine("Enter Your Number Age for Days");
+             int N;
+             bool Flag;
+             do
+             {
+                 Flag = int.TryParse(Console.ReadLine(),out N);
+             }while(!Flag);
+
+             int Years;
+             int Month;
+             int Days;
+
+             Years = N / 365;
+             Month = (N - Years *365) / 30;
+             Days = (N - Years * 365 - Month*30);
+
+             Console.WriteLine($"Years: {Years}");
+             Console.WriteLine($"Month: {Month}");
+             Console.WriteLine($"Days: {Days}");*/
+
+
+
+
+            #endregion
+
+
+            #region T. Sort Numbers
+/*
+            int A;
+            int B;
+            int C;
             bool Flag;
             do
             {
-                Flag = int.TryParse(Console.ReadLine(),out N);
+                Console.WriteLine("Enter Your A");
+                Flag = int.TryParse(Console.ReadLine(),out A);
             }while(!Flag);
+            do
+            {
+                Console.WriteLine("Enter Your B");
+                Flag = int.TryParse(Console.ReadLine(), out B);
+            } while (!Flag);
+            do
+            {
+                Console.WriteLine("Enter Your C");
+                Flag = int.TryParse(Console.ReadLine(),out C);
+            }while (!Flag);
 
-            int Years;
-            int Month;
-            int Days;
+            int GetMax = Math.Max(A, Math.Max(B, C));
+            int GetMin = Math.Min(A, Math.Min(B, C));   
+            int GetMid = (A + B + C) - (GetMax + GetMin);
 
-            Years = N / 365;
-            Month = (N - Years *365) / 30;
-            Days = (N - Years * 365 - Month*30);
-
-            Console.WriteLine($"Years: {Years}");
-            Console.WriteLine($"Month: {Month}");
-            Console.WriteLine($"Days: {Days}");*/
-
-
-
-
+            Console.WriteLine($"{GetMin}\n{GetMid}\n{GetMax}");
+            Console.WriteLine($"{GetMax}\n{GetMid}\n{GetMin}");
+            */
             #endregion
 
 
