@@ -612,7 +612,38 @@ namespace ICPCAssiut01
             #endregion
 
             #region Y. The last 2 digits
-           /* int A, B, C, D;
+            /* int A, B, C, D;
+             bool Flag;
+             do
+             {
+                 Console.WriteLine("Enter Your A");
+                 Flag = int.TryParse(Console.ReadLine(), out A);
+             } while (!Flag);
+             do
+             {
+                 Console.WriteLine("Enter Your B");
+                 Flag = int.TryParse(Console.ReadLine(), out B);
+             }while (!Flag);
+             do
+             {
+                 Console.WriteLine("Enter Your C");
+                 Flag = int.TryParse(Console.ReadLine(), out C);
+             } while (!Flag);
+             do
+             {
+                 Console.WriteLine("Enter Your D");
+                 Flag = int.TryParse(Console.ReadLine(),out D);
+             }while(!Flag);
+
+             int Result = A * B * C * D;
+             int tens = Math.Abs((Result ) % 100);
+             Console.WriteLine(tens);*/
+
+
+            #endregion
+
+            #region Z. Hard Compare
+          /*  int A, B, C, D;
             bool Flag;
             do
             {
@@ -623,7 +654,7 @@ namespace ICPCAssiut01
             {
                 Console.WriteLine("Enter Your B");
                 Flag = int.TryParse(Console.ReadLine(), out B);
-            }while (!Flag);
+            } while (!Flag);
             do
             {
                 Console.WriteLine("Enter Your C");
@@ -632,13 +663,12 @@ namespace ICPCAssiut01
             do
             {
                 Console.WriteLine("Enter Your D");
-                Flag = int.TryParse(Console.ReadLine(),out D);
-            }while(!Flag);
-
-            int Result = A * B * C * D;
-            int tens = Math.Abs((Result ) % 100);
-            Console.WriteLine(tens);*/
-
+                Flag = int.TryParse(Console.ReadLine(), out D);
+            } while (!Flag);
+            if((Math.Pow(A,B)) > (Math.Pow(C,D)))
+                Console.WriteLine("Yes");
+            else
+                Console.WriteLine("No");*/
 
             #endregion
 
