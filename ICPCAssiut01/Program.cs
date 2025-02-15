@@ -572,7 +572,46 @@ namespace ICPCAssiut01
 
             #endregion
 
-            
+            #region X. Two intervals
+          /*  int L1;
+            int R1;
+            int L2;
+            int R2;
+            bool Flag;
+
+            do
+            {
+                Console.WriteLine("Enter Your L1");
+                Flag = int.TryParse(Console.ReadLine(), out L1);
+            } while (!Flag);
+            do
+            {
+                Console.WriteLine("Enter Your R1");
+                Flag = int.TryParse(Console.ReadLine(),out R1);
+            }while (!Flag);
+            do
+            {
+                Console.WriteLine("Enter Your L2");
+                Flag = int.TryParse(Console.ReadLine(), out L2);
+            }while (!Flag);
+            do
+            {
+                Console.WriteLine("Enter Your R2");
+                Flag = int.TryParse(Console.ReadLine(), out R2);
+            } while (!Flag);
+            if((L2 > R1 && R2 > R1) || (L2 < L1 && R2 < L1))
+                Console.WriteLine("-1");
+            else
+            {
+                int X,Y;
+                X= Math.Max(L1, L2);
+                Y= Math.Min(R1, R2);
+                Console.WriteLine($"{X } {Y}");
+            }*/
+
+            #endregion
+
+
         }
 
     }
