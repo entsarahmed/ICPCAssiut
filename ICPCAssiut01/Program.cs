@@ -516,6 +516,28 @@ namespace ICPCAssiut01
 
             #endregion
 
+            #region S. Interval
+
+           /* double X;
+            bool Flag;
+
+            do
+            {
+                Console.WriteLine("Enter Your X");
+                Flag = double.TryParse(Console.ReadLine(), out X);
+            } while (!Flag);
+
+            if(X<0 || X>100)
+                Console.WriteLine("Out Of Intervals");
+            else if(X >= 0 && X <= 25)
+                Console.WriteLine("Interval [0,25]");
+            else if(X>25 && X<=50)
+                Console.WriteLine("Interval (25,50]");
+            else if(X > 50 && X <= 75)
+                Console.WriteLine("Interval (50,75]");
+            else
+                Console.WriteLine("Interval (75,100]");*/
+            #endregion
 
             #region T. Sort Numbers
             /*
@@ -643,32 +665,32 @@ namespace ICPCAssiut01
             #endregion
 
             #region Z. Hard Compare
-          /*  int A, B, C, D;
-            bool Flag;
-            do
-            {
-                Console.WriteLine("Enter Your A");
-                Flag = int.TryParse(Console.ReadLine(), out A);
-            } while (!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your B");
-                Flag = int.TryParse(Console.ReadLine(), out B);
-            } while (!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your C");
-                Flag = int.TryParse(Console.ReadLine(), out C);
-            } while (!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your D");
-                Flag = int.TryParse(Console.ReadLine(), out D);
-            } while (!Flag);
-            if((Math.Pow(A,B)) > (Math.Pow(C,D)))
-                Console.WriteLine("Yes");
-            else
-                Console.WriteLine("No");*/
+            /*  int A, B, C, D;
+              bool Flag;
+              do
+              {
+                  Console.WriteLine("Enter Your A");
+                  Flag = int.TryParse(Console.ReadLine(), out A);
+              } while (!Flag);
+              do
+              {
+                  Console.WriteLine("Enter Your B");
+                  Flag = int.TryParse(Console.ReadLine(), out B);
+              } while (!Flag);
+              do
+              {
+                  Console.WriteLine("Enter Your C");
+                  Flag = int.TryParse(Console.ReadLine(), out C);
+              } while (!Flag);
+              do
+              {
+                  Console.WriteLine("Enter Your D");
+                  Flag = int.TryParse(Console.ReadLine(), out D);
+              } while (!Flag);
+              if((Math.Pow(A,B)) > (Math.Pow(C,D)))
+                  Console.WriteLine("Yes");
+              else
+                  Console.WriteLine("No");*/
 
             #endregion
 
