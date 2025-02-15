@@ -518,37 +518,61 @@ namespace ICPCAssiut01
 
 
             #region T. Sort Numbers
-/*
-            int A;
-            int B;
-            int C;
-            bool Flag;
-            do
-            {
-                Console.WriteLine("Enter Your A");
-                Flag = int.TryParse(Console.ReadLine(),out A);
-            }while(!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your B");
-                Flag = int.TryParse(Console.ReadLine(), out B);
-            } while (!Flag);
-            do
-            {
-                Console.WriteLine("Enter Your C");
-                Flag = int.TryParse(Console.ReadLine(),out C);
-            }while (!Flag);
+            /*
+                        int A;
+                        int B;
+                        int C;
+                        bool Flag;
+                        do
+                        {
+                            Console.WriteLine("Enter Your A");
+                            Flag = int.TryParse(Console.ReadLine(),out A);
+                        }while(!Flag);
+                        do
+                        {
+                            Console.WriteLine("Enter Your B");
+                            Flag = int.TryParse(Console.ReadLine(), out B);
+                        } while (!Flag);
+                        do
+                        {
+                            Console.WriteLine("Enter Your C");
+                            Flag = int.TryParse(Console.ReadLine(),out C);
+                        }while (!Flag);
 
-            int GetMax = Math.Max(A, Math.Max(B, C));
-            int GetMin = Math.Min(A, Math.Min(B, C));   
-            int GetMid = (A + B + C) - (GetMax + GetMin);
+                        int GetMax = Math.Max(A, Math.Max(B, C));
+                        int GetMin = Math.Min(A, Math.Min(B, C));   
+                        int GetMid = (A + B + C) - (GetMax + GetMin);
 
-            Console.WriteLine($"{GetMin}\n{GetMid}\n{GetMax}");
-            Console.WriteLine($"{GetMax}\n{GetMid}\n{GetMin}");
-            */
+                        Console.WriteLine($"{GetMin}\n{GetMid}\n{GetMax}");
+                        Console.WriteLine($"{GetMax}\n{GetMid}\n{GetMin}");
+                        */
             #endregion
 
+            #region V. Comparison
+            //int A;
+            //int B;
+            //bool Flag;
+            //do
+            //{
+            //    Console.WriteLine("Enter Your A");
+            //    Flag = int.TryParse(Console.ReadLine(), out A);
+            //} while (!Flag);
+            //do
+            //{
+            //    Console.WriteLine("Enter Your B");
+            //    Flag = int.TryParse(Console.ReadLine(), out B);
+            //}while (!Flag);
 
+            //if (A>B)
+            //    Console.WriteLine("Right");
+            //else if(A<B)
+            //    Console.WriteLine("Wrong");
+            //else
+            //    Console.WriteLine("Right");
+
+            #endregion
+
+            
         }
 
     }
